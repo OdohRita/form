@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* starting the form */
+h1{
+    font-size: 30px;
+    margin-top:15px
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    
+    width:50%;
+    height:70%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+main .message{
+    display:flex;
+    padding-left:40px;
+    width:50%;
+    background:linear-gradient(  to bottom right,rgb(130, 32, 130), rgba(10, 10, 75, 0.848));
+    flex-direction: column
+    ;
+}
+main .message h2{
+    margin-bottom:15px;
+    margin-top:25px;
+    color:white;
+    font-weight: 560;
+}
+input{
+    margin-bottom: 10px;
+    width:90%;
+    outline:none;
+    border:none;
+    background-color: transparent;
+    border-bottom:1px solid white;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+}
+textarea{
+    margin-bottom: 10px;
+    width:90%;
+    color:white;
+    outline:none;
+    border:none;
+    background-color: transparent;
+    border-bottom:1px solid white;
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+
+button{
+    display:inline-block;
+    width:35%;
+    border:1px solid rgb(198, 35, 206);;
+    outline:none;
+    background-color: rgb(198, 35, 206);
+    font-size: 13px;
+    padding:8px;
+   
+}
+button:hover{
+    outline:2px solid rgb(198, 35, 206);
+    border:1px solid rgb(198, 35, 206);
+    color:rgb(198, 35, 206);
+}
+
+
+button a{
+    color:white;
+    font-size: 12px;
+}
+
+::placeholder{
+    color:rgba(255, 255, 255, 0.788)
+}
+
+/* for contact */
+
+main .contact{
+    width:50%;
+    box-shadow: 7px 7px 8px 3px  rgba(0, 0, 0, 0.32);
+    padding-left:40px;
+    padding-right:40px;
+
+    /* background-color: blue; */
+}
+.contact h2{
+    margin-top:25px;
+    font-weight: 560;
+   
+    
+}
+.contact p{
+    font-size: 13.5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    
+}
+hr{
+    width:40px;
+    border:1.5px solid rgb(198, 35, 206);
+}
